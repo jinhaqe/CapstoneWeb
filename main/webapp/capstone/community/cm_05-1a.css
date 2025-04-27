@@ -1,0 +1,275 @@
+
+.board_wrap {
+    width: 100%;
+    max-width: 1300px;
+    height: auto;
+    margin: 50px auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.img01{
+    width: 20px;
+    height: 20px;
+}
+
+.main_logo{
+    width: 110px;
+    height: 90px;
+    margin: auto 0;
+}
+
+.board_title h6::after {
+    display: block;
+    content: '';
+    width: 90px;
+    height: 5px;
+    background-color: #fc7c8c;
+    margin: 10px auto;
+}
+
+.board_title {
+    text-align: center;
+    display: block;
+}
+
+.board_title h6 {
+    font-size: 27px;
+    margin: 0;
+}
+
+.board_list_wrap {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.board_list {
+    width: 100%;
+    border-top: 2px solid  #fc7c8c;
+    margin: 0 auto;
+}
+
+.board_list > div {
+    border-bottom: 1px solid #ddd;
+    font-size: 0;
+}
+
+.board_list > div.top {
+    border-bottom: 1px solid #999;
+}
+
+.board_list > div:last-child {
+    border-bottom: 1px solid #000;
+}
+
+.board_list > div > div {
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 1.4rem;
+
+}
+
+.board_list > div.top > div {
+    font-weight: 600;
+    font-size: 17px;
+}
+.board_list > div.middle > div{
+	font-weight: 600;
+    font-size: 17px;
+}
+.board_list .num {
+    width: 10%;
+    text-align: center;
+}
+
+.board_list .title {
+    width: 50%;
+    text-align: left;
+}
+.board_list .check {
+	width : 10%;
+	text-align: center;
+}
+.board_list .userID {
+	text-align: center;
+	width: 10%;
+}
+
+.board_list .top .title {
+    text-align: center;
+}
+
+.board_list .date {
+    width: 20%;
+    text-align: center;
+}
+
+.sign_up {
+    background-color: rgb(249, 104, 128);
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: auto;
+    border-radius: 3px;
+    font-size: 1.2rem;
+}
+
+.board_page {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 0;
+    padding: 5px;
+}
+
+.board_page a {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    line-height: 12px;
+}
+
+.board_page a.bt {
+    padding-top: 10px;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+}
+
+.board_page a.num {
+    padding: 9px;
+    font-size: 1.4rem;
+}
+
+.board_page a.num.on {
+    border-color: none;
+    background: rgb(249, 104, 128);
+    color: #fff;
+}
+
+.board_page a:first-child {
+    border-left: 1px solid #ddd;
+}
+
+@media (max-width: 1300px) {
+    .board_wrap {
+        padding: 0 20px;
+    }
+
+    .board_list_wrap {
+        padding: 0 20px;
+    }
+
+    .sign_up {
+        width: 70px;
+        font-size: 1rem;
+        margin-right: 20%;
+    }
+
+    .board_page a {
+        width: 28px;
+        height: 28px;
+    }
+
+    .board_page a.num {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    .board_page a.bt {
+        font-size: 1rem;
+        padding-top: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .board_wrap {
+        padding: 0 10px;
+    }
+
+    .board_title strong {
+        font-size: 30px;
+    }
+
+    .board_list_wrap {
+        padding: 0 10px;
+    }
+
+    .board_list .num, .board_list .date {
+        width: 20%;
+    }
+
+    .board_list .title {
+        width: 60%;
+    }
+
+    .sign_up {
+        width: 60px;
+        font-size: 0.8rem;
+        margin-right: 30%;
+        color: #fff;
+    }
+
+    .board_page a {
+        width: 24px;
+        height: 24px;
+    }
+
+    .board_page a.num {
+        font-size: 1rem;
+        padding: 6px;
+    }
+
+    .board_page a.bt {
+        font-size: 0.8rem;
+        padding-top: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .board_wrap {
+        padding: 0 5px;
+    }
+
+    .board_title strong {
+        font-size: 25px;
+    }
+
+    .board_list_wrap {
+        padding: 0 5px;
+    }
+
+    .board_list .num, .board_list .date {
+        width: 25%;
+    }
+
+    .board_list .title {
+        width: 50%;
+    }
+
+    .sign_up {
+        width: 50px;
+        font-size: 0.7rem;
+        margin-right: 40%;
+    }
+
+    .board_page a {
+        width: 20px;
+        height: 20px;
+    }
+
+    .board_page a.num {
+        font-size: 0.8rem;
+        padding: 4px;
+    }
+
+    .board_page a.bt {
+        font-size: 0.7rem;
+        padding-top: 4px;
+    }
+}

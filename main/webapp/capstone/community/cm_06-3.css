@@ -1,0 +1,70 @@
+
+
+.img {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.img img {
+    width: 200px; height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.img01{
+    width: 20px;
+    height: 20px;
+}
+
+.success_b p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.success_s p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    
+}
+
+.Login {
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(249, 104, 128);
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: white;
+}
+
+.Login  p {
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
+    font-size: 18px;
+}
+.cwhite {
+    color: white;
+}
+.main {
+    width: 300px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: rgb(184, 184, 184);
+    cursor: pointer;
+}
+
+.main  p {
+    text-align: center;
+    margin: 0;
+    line-height: 60px;
+}

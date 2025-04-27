@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+    overflow-x: hidden;
+}
+.big1 {
+    width: 1920px;
+    margin: 0 auto;
+}
+#gage {
+    width: 900px;
+    height: 200px;
+    margin: 70px auto;
+}
+#pageText {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 2px solid rgb(182, 182, 182);
+}
+.big4 {
+    width: 800px;
+    height: 300px;
+    margin: 230px 560px 30px 560px;
+    position: relative;
+}
+#bigText {
+    width: 500px;
+    height: 50px;
+    text-align: center;
+    margin: 50px auto;
+}
+#fu {
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+#doing {
+    width: 500px;
+    height: 100px;
+    margin: 0 auto;
+}
+#sol {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    color: rgb(182, 182, 182);
+}
+#bol {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 15px;
+    color: rgb(249, 104, 128);
+}
+.nextBack {
+    width: 400px;
+    height: 100px;
+    margin: 0px 760px 30px 760px;
+    float: left;
+    line-height: 100px;
+}
+.before-btn {
+    float: left;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ced4da;
+}
+.next-btn {
+    float: right;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid rgb(249, 104, 128);
+    background-color: rgb(249, 104, 128);
+    color: white;
+}
+.before-btn:active {
+    background-color: #bbbbbb;
+}
+.next-btn:hover {
+    border: 3px solid rgb(249, 104, 128);
+    background-color: rgb(247, 131, 150);
+}

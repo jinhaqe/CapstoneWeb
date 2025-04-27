@@ -1,0 +1,114 @@
+/*광고모음의 스타일*/ 
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* * {
+margin:0;
+padding: 0;
+box-sizing:border-box;
+
+}  */
+
+.container {
+    position: relative;
+    min-height: 100vh;
+    background: #ffffff;
+
+}
+
+.image_container {
+    display: flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content: center;
+    padding:10px;  /* 위 오 아 왼 */
+
+
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    display:block;
+    margin:10px  15px  10px 15px;   /* 위 오 아 왼  <- 10으로 해야 광고모음에서 3개가 한 줄로 나란히 나옴*/
+    border: 5px solid #fff;
+    box-shadow: hidden;
+    overflow:hidden;
+    cursor:pointer;
+    float:left;  /* 한 줄에 3개씩 할 수 있도록*/
+
+
+}
+
+.container .image_container .image  img{
+
+   
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+    transition : 2.s linear;
+
+}
+
+
+.container .image_container .image:hover  img{
+
+    transform: scale(1.1);
+}
+
+
+.container .popup_image {
+    position: fixed;
+    top :0;
+    left:0;
+    background:rgba(0,0,0,.9);
+    height: 100%;
+    width:100%;
+    z-index: 100;
+    display: none;
+}
+
+.container .popup_image span{
+    position: absolute;
+    top:0; right:10px;
+    font-size:40px;
+    font-weight: bolder;
+    color:#fff;
+    cursor: pointer; 
+    z-index: 100;
+}
+
+.container .popup_image img{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width:600px;
+    object-fit:cover;
+
+
+}
+
+@media (max-width:1000px) {
+    .container .popup_image img{
+        width:95%;
+    }
+}
+
+.image_text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+  }

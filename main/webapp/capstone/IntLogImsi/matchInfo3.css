@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+body {
+    overflow-x: hidden;
+}
+.big1 {
+    width: 1920px;
+    margin: 0 auto;
+}
+#gage {
+    width: 900px;
+    height: 200px;
+    margin: 70px auto;
+}
+#pageText {
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    border-bottom: 2px solid rgb(182, 182, 182);
+}
+#circle1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+    background-color: rgb(249, 104, 128);
+    border: 3px solid rgb(249, 104, 128);
+    margin-left: 213px;
+    z-index: 1;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+}
+#circle2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+    background-color: rgb(249, 104, 128);
+    border: 3px solid rgb(249, 104, 128);
+    margin-left: 80px;
+    z-index: 1;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+}
+#circle3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+    background-color: rgb(249, 104, 128);
+    border: 3px solid rgb(249, 104, 128);
+    margin-left: 80px;
+    z-index: 1;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: white;
+}
+#circle4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    float: left;
+    background-color: white;
+    border: 3px solid rgb(249, 104, 128);
+    margin-left: 80px;
+    z-index: 1;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: rgb(249, 104, 128);
+}
+#line {
+    width: 100px;
+    border: 2px solid rgb(249, 104, 128);
+    margin: 25px 0 0 260px;
+    position: absolute;
+    z-index: -1;
+}
+#line2 {
+    width: 100px;
+    border: 2px solid rgb(249, 104, 128);
+    margin: 25px 0 0 400px;
+    position: absolute;
+    z-index: -1;
+}
+#line3 {
+    width: 100px;
+    border: 2px dashed rgb(249, 104, 128);
+    margin: 25px 0 0 520px;
+    position: absolute;
+    z-index: -1;
+}
+#label {
+    width: 60px;
+    height: 23px;
+    text-align: center;
+    line-height: 23px;
+    margin-left: 10px;
+    font-size: 15px;;
+}
+.big3 {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+table {
+    width: 100%;
+    margin-bottom: 100px;
+}
+table th {
+    width: 200px;
+    height: 50px;
+    border: 1px solid rgb(179, 179, 179);
+    text-align: left;
+    color: rgb(83, 83, 83);
+}
+table td {
+    width: 1000px;
+    height: 80px;
+    border: 1px solid rgb(179, 179, 179);
+    color: rgb(146, 146, 146);
+}
+table, th, td {
+    border-collapse: collapse;
+}
+table th, table td {
+    border-left: 0;
+    border-right: 0;
+}
+input {
+    color: rgb(146, 146, 146);
+}
+#hobby, #vacation, #stress, #person, #date, #happy, #single {
+    border: 1px solid rgb(179, 179, 179);
+    font-size: 15px;
+    outline: none;
+    resize: none;
+    color: rgb(146, 146, 146);
+    margin-left: 90px;
+}
+#important {
+    margin-left: 80px;
+}
+#check {
+    width: 13px;
+    height: 13px;
+    font-size: 15px;
+    margin: 0 5px 0 10px;
+    accent-color: rgb(249, 104, 128);
+}
+.container {
+    background-color: #f3f5f7;
+    padding: 2rem;
+    border-collapse: collapse;
+}
+.container:nth-child(n+2){
+    margin-top: 1rem;
+}
+
+.draggable {
+    width: 200px;
+    height: 60px;
+    line-height: 82px;
+    padding: 0 20px;
+    background-color: white;
+    border: 1px solid #c5cdd7;
+    border-bottom:none;
+    box-sizing: border-box;
+    cursor: move;
+}
+.draggable:last-child {
+    border-bottom: 1px solid #c5cdd7;
+}
+
+.draggable.dragging {
+    opacity: .5;
+    border: 2px dashed red;
+}
+
+.el {
+    width: 100%;
+    height: 100%;
+}
+.ico-drag {
+    display: inline-block;
+    vertical-align: inherit;
+    width: 15px;
+    height: 15px;
+    background: url(./menu.png) no-repeat center top;
+    background-size: cover;
+}
+.nextBack {
+    width: 300px;
+    height: 100px;
+    margin: 0px 810px 30px 810px;
+    float: left;
+    line-height: 100px;
+}
+.before-btn {
+    float: left;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ced4da;
+}
+.next-btn {
+    float: right;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid #ced4da;
+}
+.before-btn:active, .next-btn:active {
+    background-color: #bbbbbb;
+}

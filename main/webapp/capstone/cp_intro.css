@@ -1,0 +1,234 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+	overflow-wrap: break-word;
+}
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: #333;
+    text-decoration-line: none
+    
+}
+li {
+    list-style-type: none;
+}
+
+nav {
+    margin: 0 auto;
+}
+.ul_border {
+    background-color: white;
+}
+
+.nav_in > li {
+    padding: 35px 10px;
+    width: 150px;
+    border-bottom: 3px solid transparent;
+}
+.nav_in > li > ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: -5px;
+    display: none;
+    border: 1px solid #fc7c8c;
+    width: 160px;
+}
+.nav_in > li > ul > li {
+    padding: 10px 10px;
+}
+header nav ul li:hover > a{
+    color: #fc7c8c;
+}
+header {
+    display: flex; justify-content: space-between;
+    width: 100%; height: 100px;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: white;
+    z-index: 100;
+}
+.nav_in {
+    display: flex; text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.user_style {
+    margin-top: 10px;
+    font-size: 12px;
+    width: 236px;
+    
+}
+.user_in {
+    display: flex; text-align: center;
+}
+.user_in a {
+    width: 80px;
+}
+/* .user_style a{
+    display: inline-block;
+}*/
+header > a > img {
+    width: 100px; height: 80px;
+    padding: 10px;
+}
+
+/* footer */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    flex: 1;
+}
+
+footer {
+    background: #f8f8f8;
+    color: #1b1b1b;
+    padding: 20px 0;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    bottom: 0;
+}
+.footer_in {
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer_top {
+    overflow: hidden;
+    font-weight: 400;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    border-bottom: 1px solid #d6d6d6;
+}
+.footer_top > a {
+    display: inline-block;
+    font-size: 15px;
+    margin-right: 20px;
+    line-height: 35px;
+}
+.footer_bottom {
+    padding: 20px 0 0;
+}
+.footer_bottom p {
+    float: left;
+    font-size: 14px;
+    font-weight: 300;
+    color: #797979;
+}
+.footer_logo {
+    float: left;
+    margin-right: 60px;
+    width: 180px;
+}
+.ml10 {
+    margin-left: 10px !important;
+}
+.DM_nemo {
+	width: 330px;
+    height: 480px;
+    border: 3px solid #999;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 100px;
+    right: 0px;
+    position: fixed;
+    margin-right: 30px;
+    padding:10px;
+}
+.massIn {
+	width: 330px;
+    height: 400px;
+    overflow-y: scroll;
+}
+.DM_you {
+	float:left;
+	margin-top:10px;
+	margin-left:10px;
+} 
+.DM_me {
+	float:right;
+	margin-top:10px;
+	margin-left:10px;
+} 
+.DM_you img{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.DM_you p {
+	margin: 0px 10px;
+    width: 190px;
+    border: 2px solid rgb(255, 182, 182);
+    border-radius: 10px;
+    padding: 5px;
+    float: left;
+}
+.DM_me img{
+	width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+}
+.DM_me p {
+	margin: 0px 10px;
+    width: 190px;
+    border: 2px solid rgb(255, 182, 182);
+    background-color :rgb(255, 227, 227);
+    border-radius: 10px;
+    padding: 5px;
+    float: left;
+}
+.DM_go {
+	bottom: 0;
+    float: left;
+    position: absolute;
+    margin-bottom: 20px;
+}
+.DM_go textarea {
+	width: 240px;
+    height: 40px;
+    float: left;
+    border-radius: 15px;
+    background-color: ghostwhite;
+    margin: 0px 10px;
+    padding: 5px;
+    font-size: 17px;
+}
+.DM_go input {
+	width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    background-color: rgb(255, 227, 227);
+}
+.DM_X {
+	width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -50px;
+    top: -10px;
+}
+.DM_X img {
+	width:50px;
+	height:50px;
+}
+#dmSection {
+	z-index : 100;
+	position: relative;
+}

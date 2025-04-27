@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+/*.dropdown-label{
+  font-size : 12px;
+  margin : 10px;
+  font-weight : bold;
+  color : rgb(50, 50, 50);
+} */
+
+html, body {
+  height: 100%;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.img01{
+  width: 20px;
+  height: 20px;
+}
+
+.main_logo{
+  width: 110px;
+  height: 90px;
+  margin: auto 0;
+}
+
+.sub_tab {
+  position: relative;
+  top: -30px;
+}
+
+.memList{
+  overflow: hidden;
+  margin: 0 -25px;
+}
+
+.sub_tab_in {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #e2e2e2;
+}
+.active {
+  color: #fff;
+  background: rgb(249, 104, 128);
+}
+
+.dropdown{
+  position : relative;
+  display : block;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.body_Wrap{
+  width: 1280px;
+  margin: 0 auto;
+  padding: auto;
+  margin-bottom: 100px;
+}
+
+.bgg{
+  align-items: center;
+  margin-left: 23px;
+}
+
+.dropbtn_icon{
+  font-family : 'Material Icons';
+}
+.dropbtn{
+  display : block;
+  border : 2px solid rgb(217, 217, 217);
+  background-color: #fcfcfc;
+  font-weight: 400;
+  color : rgb(217, 217, 217);
+  padding : 12px;
+  margin-left: 40px;
+  width : 1204px;
+  text-align: left;
+  cursor : pointer;
+  font-size : 12px;
+  z-index :1;
+  position : relative;
+}
+.dropdown-content{
+  display : none;
+  border : 2px solid rgb(217, 217, 217);
+  border-top-style: none;
+  font-weight: 400;
+  background-color: #fcfcfc;
+  min-width : 240px;
+  height : 100%;
+  width: 1200px;
+  margin-left: 40px;
+  padding-right: 0px;
+  overflow : scroll;  /* 드롭다운 박스 말하는거임 나중에 위에 박스랑 합쳐야 함 */
+}
+.dropdown-content::-webkit-scrollbar{
+  width : 5px;
+  height : 10px;
+}
+.dropdown-content::-webkit-scrollbar-thumb{
+  border-radius : 2px;
+  background-color :rgb(194, 194, 194);
+}
+/*.vline {
+  border-left: 10px dotted rgb(217, 217, 217);
+}*/
+.dropdown-label {
+    float: left;
+    height: 550px;
+    font-size: 100%;
+    vertical-align: middle;
+    margin: 0 0 0 30px;
+    margin-top: 20px;
+}
+.dropdown-label:nth-child(1) {
+  margin: 0 100px 0 50px;
+  margin-top: 20px;
+}
+.dropdown-label:nth-child(2) {
+  margin: 0 100px 0 0;
+  margin-top: 20px;
+}
+.dropdown-label:nth-child(4) {
+  margin: 0 100px 0 0;
+  margin-top: 20px;
+}
+.btn_all{  /* 드롭다운 및 메뉴들 */
+  display : block;
+  text-decoration : none;
+  color : rgb(217, 217, 217);
+  font-size: 15px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  border: solid 1px rgb(217,217,217);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+}
+.dropdown-content button:hover{
+  background: linear-gradient(to bottom, rgb(255,204,204), rgb(255,184,184));
+  color: white;
+  border: solid 1px rgb(255,204,204);
+}
+.dropdown-content li {
+  margin: 10px;
+  width: 300px;
+  height: 40px;
+}
+#gender {
+  width: 100px;
+  height: 40px;
+}
+#age {
+  width: 140px;
+  height: 40px;
+}
+#area {
+  width: 170px;
+  height: 40px;
+}
+
+.dropdown-content.show{
+  display : block;
+}
+
+.dropbtn_all {
+  float:right;
+  width: 10%;
+  height: 50%;
+}
+
+.woman{
+  overflow: hidden;
+  width: 550px;
+  margin: 25px;
+  float: left;
+  border: 1px solid #e8e8e8;
+  margin-left: 40px;
+}
+
+.man{
+  overflow: hidden;
+  width: 550px;
+  margin: 25px;
+  float: left;
+  border: 1px solid #e8e8e8;
+  margin-left: 40px;
+}
+
+.thum{
+  background-image: url("../logo/진하로고5-1.png");
+  background-size: 5%;
+}
+
+.memList{
+  padding-left: 45px;
+  margin-top: 30px;
+}
+
+.memList h3{
+  width: 50%;
+  padding-top: 50%;
+  background-position: center;
+  border-right: 1px solid #efefef;
+  float: left;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-color: #fffcfc;
+}
+
+.memList .info{
+  width: 45%;
+  float: right;
+  text-align: center;
+}
+
+.memList .info h4{
+  font-size: 23px;
+  font-weight: 500;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+.memList .info h4 span{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  max-width: calc(100% - 59px);
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.memList .info h4 em{
+  color: #f26868;
+  font-size: 0.7em;
+  font-style: normal;
+}
+
+.memList .info h5 {
+  margin-bottom: 0px;
+  height: 40px;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-top: 10px;
+}
+
+.memList .info h5 .mm {
+  font-weight: 400;
+  background: #fff;
+  display: inline-block;
+  color: #999;
+  padding: 4px 9px;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+  font-size: 13px;
+  border-radius: 40px;
+}
+
+.memList p {
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  font-weight: 300;
+  height: 64px;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  color: rgb(83, 83, 83);
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.memList p em {
+  display: block;
+  font-size: 0.9em;
+  font-weight: 600;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+
+.memList p span {
+  font-size: 13px;
+}
+
+.btn_wrap.right {
+  text-align: right;
+}
+
+.btn_wrap {
+  overflow: hidden;
+  margin: 20px 0;
+}
+
+.mt30 {
+  margin-top: 30px !important;
+}
+
+.pager {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.pager ul {
+  border: 0;
+  overflow: visible;
+  font-size: 0;
+  word-spacing: 0;
+  display: inline-block;
+}
+
+.pager ul li {
+  border: 0;
+  width: 20px;
+  margin: 0 5px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 16px;
+  background: transparent;
+  display: inline-block;
+  height: 35px;
+  line-height: 35px;
+}
+
+img {
+  line-height: 0;
+  font-size: 0;
+  border: 0;
+}
+
+.pager ul li#present {
+  background: transparent;
+  color: #111;
+}
+
+.pager ul li#present {
+  color: #3b3b3b;
+  font-weight: 600;
+}
+
+.pager ul li#present:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #111;
+  margin-top: -3px;
+}
+
+.pager ul li a {
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+
+.pager ul li a {
+  display: block;
+  color: #546479;
+  opacity: 0.7;
+}
+
+.pager ul li a img {
+  opacity: 1;
+}
+
+.foot_container{
+  overflow: hidden;
+  margin: 120px auto;
+  width: 1200px;
+}
+
+.foot_list{
+  width: 60%;
+  float: left;
+  position: relative;
+  margin-right: 100px;
+  margin-left: 20px;
+}
+
+.foot_list ul.tabs{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  margin-bottom: 35px;
+}
+
+.foot_container .foot_list ul.tabs li .new{
+  width: 20px !important;
+  height: 20px;
+  font-size: 15px !important;
+  font-weight: 400;
+  line-height: 18px !important;
+  margin: -4px 0 0 0;
+  background-color: #ff7b91 !important;
+  color: #fff !important;
+}
+
+.foot_container .foot_list ul.tabs li{
+  padding: 0;
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+.foot_container .foot_list ul.tabs li.current{
+  color: #ff5a75;
+}
+
+ul.tabs li{
+  background: none;
+  color: #222;
+  display: inline-block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+span.new{
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  background: #aebe5c;
+  border-radius: 50%;
+}
+
+.foot_container .foot_list .more_btn{
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 30px;
+  font-weight: 200;
+  line-height: 30px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.foot_container .foot_list .tab-content li a{
+  overflow: hidden;
+  display: block;
+  height: 25px;
+  padding: 10px 0;
+  border-bottom: 1px solid #e2e2e2;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.foot_container .foot_list .tab-content li a .tle{
+  float: left;
+  max-width: calc(100% - 95px);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.foot_container .foot_list .tab-content li a .date{
+  float: right;
+  margin-top: 2px;
+  font-size: 15px;
+  color: #999;
+  padding: 0 3px;
+  border: 0;
+}
+
+.tab-content.current{
+  display: inherit;
+}
+
+.tab-content{
+  display: none;
+}
+
+script{
+  display: none;
+}
+
+.section input[id*="slide"]{
+  display: none;
+}
+
+.section .slidewrap{
+  max-width: 1200px;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.section .slidelist{
+  white-space: nowrap;
+  font-size: 0;
+}
+
+.section .slidelist > li{
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  transition: all .5s;
+}
+
+.section .slidelist > li > a img{
+  width: 100%;
+}
+
+.section .slidelist label{
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 50px;
+  cursor: pointer;
+}
+
+.section .slidelist .left{
+  left: 5px;
+  background: url('../icon/arrow2.png') center center / 100% no-repeat;
+  background-size: 15px 30px;
+  padding: 20px;
+}
+
+.section .slidelist .right{
+  right: 5px;
+  background: url('../icon/arrow.png') center center / 100% no-repeat;
+  background-size: 15px 30px;
+  padding: 20px;
+}
+
+.section [id ="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+.section [id ="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+.section [id ="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+.section [id ="slide04"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-300%);}
+.section [id ="slide05"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-400%);}
+
+.size{
+  width: 400px;
+  height: 230px;
+  overflow: hidden;
+}
+
+.tlle{
+  overflow: hidden;
+  font-size: 18px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  padding-top: 10px;
+}
+
+.sam1{
+  display: block;
+  font-size: 14px;
+  background: #ff8297;
+  color: #fff;
+  padding: 5px 10px;
+  left: 0;
+  bottom: 0;
+}

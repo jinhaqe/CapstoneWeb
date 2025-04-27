@@ -1,0 +1,402 @@
+html, body {
+    height: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.bg1 {
+    background: url(top_bg.png) center;
+    background-size: cover;
+    
+}
+.bg1_deep {
+    margin-top: 100px;
+    width: 100%; height: 80px;
+    text-align: center;
+    padding: 65px 0 90px;
+}
+.title {
+    position: relative;
+}
+.title h5 {
+    font-size: 45px;
+    font-weight: 400;
+    margin: 0;
+    color: #1b1b1b;
+}
+.title p {
+    font-size: 19px;
+    font-weight: 300;
+    margin: 0;
+    color: #1b1b1b;
+}
+.sub_tab {
+    position: relative;
+    top: -30px;
+}
+.sub_tab_co {
+    width: 865px;
+    margin: 0 auto;
+}
+.sub_tab_in {
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+}
+.active {
+    color: #fff;
+    background: rgb(249, 104, 128);
+}
+.bactive {
+    background: white;
+}
+.sub_tab_in a {
+    width: 170px;
+    font-size: 18px;
+    display: inline-block;
+    height: 52px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 1px solid #e2e2e2;
+}
+
+.img01{
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    width: 90px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.main_logo{
+    width: 110px;
+    height: 90px;
+    margin: auto 0;
+}
+
+.title02{
+    margin-top: 50px;
+    font-size: 27px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.title02::after{
+    display: block;
+    content: '';
+    width: 90px;
+    height: 5px;
+    margin: 10px auto 0;
+    background-color: #fc7c8c;
+}
+
+.body_Wrap{
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 100px;
+}
+
+.info_container{
+    overflow: hidden;
+    margin: 120px auto;
+    margin-top: 70px;
+    width: 1200px;
+}
+
+.info_list{
+    position: relative;
+    margin: auto;
+}
+
+.info_list ul.tabss{
+    margin: 0px;
+    padding: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.info_container .info_list ul.tabss li{
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.info_container .info_list ul.tabss li:hover{
+    color: #ffffff;
+    background-color: #ff5a75;
+    border-radius: 60px;
+    box-shadow: 0 4px 5px 1px rgba(189, 189, 189, 0.4);
+}
+
+.info_container .info_list ul.tabss li.current{
+    color: #ffffff;
+    background-color: #ff5a75;
+    border-radius: 60px;
+    box-shadow: 0 4px 5px 1px rgba(189, 189, 189, 0.4);
+}
+
+ul.tabss li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.info_container .info_list .tab-content li a{
+    overflow: hidden;
+    display: block;
+    height: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.info_container .info_list .tab-content li a .tle{
+    float: left;
+    max-width: calc(100% - 95px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.info_container .info_list .tab-content li a .date{
+    float: right;
+    margin-top: 2px;
+    font-size: 15px;
+    color: #999;
+    padding: 0 3px;
+    border: 0;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+.tab-content{
+    display: none;
+}
+
+script{
+    display: none;
+}
+
+.com_p{
+    display: block;
+    margin: 40px auto 20px;
+    max-width: 900px;
+}
+
+.map-group{
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+
+.map{
+    width: 100%;
+    height: 500px;
+}
+
+.map-group .map-info{
+    position: absolute;
+    top: 0;
+    left: 310px;
+    z-index: 20;
+    max-width: 400px;
+    height: 500px;
+    padding: 0 50px;
+    background-color: #aaaaaa;
+}
+
+.map-info .ttle{
+    display: block;
+    margin-top: 40px;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.map-info dl{
+    margin-top: 30px;
+    padding-left: 55px;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: left top;
+    text-align: left;
+    line-height: 40px;
+}
+
+.map-info dl dt{
+    margin-right: 5px;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.map-info dl dd{
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    vertical-align: top;
+    word-break: keep-all;
+    margin-left: 10px;
+}
+
+.map-info dl:after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.call{
+    background-image: url(../지도/icon_call.png);
+}
+
+.address{
+    background-image: url(../지도/icon_address.png);
+}
+
+.station{
+    background-image: url(../지도/icon_bus.png);
+}
+
+.person{
+    background-image: url(../지도/icon_mg.png);
+}
+
+.mail{
+    background-image: url(../지도/icon_mail.png);
+}
+
+.btn-bottom {
+    position: relative;
+    margin: 35px auto 0;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.btn-more1 {
+    width: 340px;
+    height: 70px;
+    border-color: #ff5a75;
+    background: #ff5a75 url(../icon/arrow_more.png) no-repeat right 20px center;
+    color: #fff;
+    font-size: 24px;
+    line-height: 68px;
+}
+
+.btn1 {
+    display: inline-block;
+    margin: 0;
+    padding: 0 5px;
+    box-sizing: border-box;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 18px;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.set3{
+    background: #fff;
+    padding: 40px 0 150px;
+    text-align: center;
+}
+
+.conwrap {
+    position: relative;
+    width: 1180px;
+    margin: 0 auto;
+    max-width: 1180px;
+}
+
+.title001 {
+    font-size: 15px;
+    color: #fc7c8c;
+}
+
+.title002 {
+    font-size: 22px;
+    color: rgba(33, 32, 46, 0.9);
+}
+
+.conwrap ul {
+    overflow: hidden;
+    margin: 35px 0 0;
+}
+
+.conwrap ul li {
+    float: left;
+    width: 229px;
+    height: 230px;
+    box-sizing: border-box;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+}
+
+.conwrap ul li .num {
+    font-size: 15px;
+    color: #888;
+    font-weight: 300;
+    margin: 30px 0 10px;
+}
+
+.conwrap ul li .ico {
+    height: 42px;
+}
+
+.ico-1{
+    width: 80px;
+    height: 80px;
+}
+
+.conwrap ul li dl {
+    margin: 50px 0 0;
+}
+
+.conwrap ul li dl dt {
+    font-size: 18px;
+    color: #22212f;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.mr8{
+    margin-right: 8px;
+}
+
+.conwrap ul li dl dd {
+    font-size: 15px;
+    color: rgba(33, 32, 46, 0.9);
+    font-weight: 300;
+    margin: 0;
+    margin-top: 5px;
+}

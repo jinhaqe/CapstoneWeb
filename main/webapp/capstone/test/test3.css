@@ -1,0 +1,335 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+main {
+    width: 100%;
+}
+.main_in {
+    width: 100%;
+}
+body {
+    margin: 0;
+}
+.test_title {
+    text-align: center;   
+}
+.test_title h6 {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 500;
+    margin: 50px 0 20px 0;
+}
+.test_title h6::after {
+    width: 140px;
+    height: 5px;
+    margin: 10px auto 0;
+    background-color: #fc7c8c;
+    display: block;
+    content: '';
+}
+.progress {
+    width: 750px; height: 30px;
+    border: 1.5px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+.progress_in{
+    height: 100%;
+    background-color: #febec9;
+    border-radius: 20px;
+}
+.test_back {
+    background-color: #9bbbd4;
+    width: 650px; height: 600px;
+    margin: 30px auto;
+    background-size: cover;
+    padding: 40px;
+    border: 1.5px solid black;
+}
+.test_title p {
+    font-size: 25px;
+    text-align: center;
+    margin-top:50px;
+}
+.start_btn {
+    width: 400px; height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(249, 104, 128);
+    margin: 0 auto;
+    line-height: 70px;
+    font-size: 26px;
+    color: white;
+    font-weight: 700;
+}
+.progress_heart {
+    background: url(heart.png) center no-repeat;
+    background-size: cover;
+    width: 50px; height: 50px;
+    margin-left: 710px;
+    margin-top: -40px;
+    position: relative;
+}
+.progress_heart_full {
+    background: url(heart_full.png) center no-repeat;
+    background-size: cover;
+    width: 50px; height: 50px;
+    margin-left: 710px;
+    margin-top: -40px;
+}
+.test3_open , .test3_close {
+    width: 650px; height: 560px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.test3_start{
+    width: 100%; height: 442px;
+    margin-bottom : 70px;
+}
+.profile {
+    width: 100px; height: 100px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.chat_topL {
+    width: 500px; height: 250px;
+    float: left;
+    margin-left: 25px;
+}
+.chat_topR {
+    width: 500px; height: 195px;
+    float: left;
+    margin-left: 150px;
+}
+.left_chat {
+    width: 350px; height: 80px;
+    border-radius: 10px;
+    background-color:#ffffff;
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 80px;
+}
+.right_chat {
+    width: 200px; height: 80px;
+    border-radius: 10px;
+    background-color:#fef01b;
+    right: 0px;
+    position: absolute;
+    margin-top: 30px;
+}
+
+.test3_close {
+    display: none;
+}
+
+.select_top {
+    float: left;
+    width: 100%;
+    height: 100px;
+}
+.select_A {
+    width: 400px; height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    border:2px solid rgb(249, 104, 128);
+    margin: 10px auto;
+    line-height: 55px;
+    font-size: 20px;
+    color: rgb(249, 104, 128);
+    font-weight: 700;
+    background-color: white;
+}
+
+.select_B {
+    width: 400px; height: 55px;
+    text-align: center;
+    border-radius: 10px;
+    border:2px solid rgb(249, 104, 128);
+    margin: 15px auto;
+    line-height: 55px;
+    font-size: 20px;
+    color: rgb(249, 104, 128);
+    font-weight: 700;
+    background-color: white;
+}
+
+.test_back p {
+    font-size: 24px;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.left_arrow {
+    background: url(leftarrow.png) center no-repeat;
+    background-size: cover;
+    width: 80px; height: 80px;
+    left: 0;
+    top: 260px;
+    position: absolute;
+}
+.right_arrow {
+    background: url(rightarrow.png) center no-repeat;
+    background-size: cover;
+    width: 80px; height: 80px;
+    right: 0;
+    top: 260px;
+    position: absolute;
+}
+
+/*결과 */
+.result_back {
+    background-color: #9bbbd4;
+    width: 650px; 
+    margin: 30px auto;
+    padding: 40px;
+    border: 1.5px solid black;
+}
+.result_title {
+    font-size: 25px;
+    text-align: center;
+    margin: 0;
+}
+.result_p {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(249, 104, 128);
+}
+.result_detail{
+    font-size: 18px;
+    padding: 0 40px;
+    width: 530px; height: 550px;
+    margin: 0 auto;
+}
+.result_detail  p {
+    font-size: 25px;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+.btn_more {
+    width: 495px; height: 80px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.share_btn {
+    width: 200px; height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(249, 104, 128);
+    line-height: 70px;
+    font-size: 22px;
+    color: rgb(249, 104, 128);
+    font-weight: 700;
+    float: left;
+    margin: 0 20px;
+    background-color: white;
+}
+.return_btn {
+    width: 200px; height: 70px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(249, 104, 128);
+    line-height: 70px;
+    font-size: 22px;
+    color: rgb(249, 104, 128);
+    font-weight: 700;
+    float: left;
+    margin: 0 20px;
+    background-color: white;
+}
+
+.pro_g1 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile1.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+
+.pro_g2 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile2.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.pro_g3 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile3.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.pro_g4 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile4.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.pro_g5 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile5.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.pro_g6 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile6.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.pro_g7 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile7.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.pro_g8 {
+    width: 80px; height: 80px;
+    border: 1px solid black;
+    border-radius: 100%;
+    background: url(test3/profile8.jpg) center no-repeat;
+    background-size: cover;
+    float: left;
+}
+.result_topL {
+    float: left;
+    margin-left: 25px;
+}
+.result_chat{
+    width: 350px; height: 60px;
+    border-radius: 10px;
+    background-color:#ffffff;
+    margin-top: 30px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 60px;
+}

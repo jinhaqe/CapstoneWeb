@@ -1,0 +1,342 @@
+
+.board_wrap {
+    height: 50px;
+    margin: 50px;
+}
+
+.board_title h6::after {
+    display: block;
+    content: '';
+    width: 80px;
+    height: 5px;
+    background-color: #fc7c8c;
+    margin: 10px auto;
+}
+
+.img01{
+    width: 20px;
+    height: 20px;
+}
+
+.main_logo{
+    width: 110px;
+    height: 90px;
+    margin: auto 0;
+}
+
+.board_title {
+    text-align: center;
+}
+
+.board_title h6 {
+    font-size: 27px;
+    margin: 0;
+}
+
+
+.box img {
+    width: 80px;
+    height: 80px;
+    margin: 5px 20px 5px 20px;
+}
+.box {
+    width: 1200px;
+    margin: 0 auto;
+}
+.box > ul {
+    text-align: center;
+    padding: 0;
+}
+
+.box > ul > li {
+    display: inline-block;
+}
+
+.box > ul > li > div {
+    width: 120px;
+    height: 120px;
+    border: 1px solid #999;
+    float: left;
+    border-radius: 5%;
+    font-weight: 30px;
+}
+
+.box > ul > li >div.on {
+    border: 1px solid rgb(249, 104, 128);
+}
+
+.inner_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    margin-bottom: 60px;
+}
+.inner_body ul {
+    padding: 0 !important;
+    display: none;
+}
+
+.faq_block {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    border: 1px solid gray;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.faq_block:hover {
+    cursor: pointer;
+}
+
+
+.faq_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq_header h3 {
+    margin: 10px;
+}
+
+.button {
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin: 15px 10px;
+    margin-left: auto;
+    background: none;
+}
+
+.button.open {
+    transform: rotate(180deg);
+}
+
+.faq_body {
+    display: none;
+    background-color: #f5f5f5;
+    padding: 0 35px;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.faq_body p{
+    font-size: 14px;
+    line-height: 2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#faq_toggle:checked ~ .faq_body {
+    display: block;
+    animation: slideDown 3s forwards;
+}
+
+#faq_toggle:not(:checked) ~ .faq_body {
+    animation: slideUp 3s forwards;
+}
+
+.inner_body ul {
+    display: none;
+}
+.inner_body ul:first-child {
+    display: block;
+}
+
+.foot_container{
+    overflow: hidden;
+    margin: 120px auto;
+    width: 1200px;
+}
+
+.foot_list{
+    width: 60%;
+    float: left;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+
+.foot_list ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 35px;
+}
+
+.foot_container .foot_list ul.tabs li .new{
+    width: 20px !important;
+    height: 20px;
+    font-size: 15px !important;
+    font-weight: 400;
+    line-height: 18px !important;
+    margin: -4px 0 0 0;
+    background-color: #ff7b91 !important;
+    color: #fff !important;
+}
+
+.foot_container .foot_list ul.tabs li{
+    padding: 0;
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.foot_container .foot_list ul.tabs li.current{
+    color: #ff5a75;
+}
+
+ul.tabs li{
+    background: none;
+    color: #222;
+    display: inline-block;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+span.new{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    background: #aebe5c;
+    border-radius: 50%;
+}
+
+.foot_container .foot_list .more_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 30px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: middle;
+}
+
+.foot_container .foot_list .tab-content li a{
+    overflow: hidden;
+    display: block;
+    height: 25px;
+    padding: 10px 0;
+    border-bottom: 1px solid #e2e2e2;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.foot_container .foot_list .tab-content li a .tle{
+    float: left;
+    max-width: calc(100% - 95px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.foot_container .foot_list .tab-content li a .date{
+    float: right;
+    margin-top: 2px;
+    font-size: 15px;
+    color: #999;
+    padding: 0 3px;
+    border: 0;
+}
+
+.tab-content.current{
+    display: inherit;
+}
+
+.tab-content{
+    display: none;
+}
+
+script{
+    display: none;
+}
+
+.section input[id*="slide"]{
+    display: none;
+}
+
+.section .slidewrap{
+    max-width: 1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+
+.section .slidelist{
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.section .slidelist > li{
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    transition: all .5s;
+}
+
+.section .slidelist > li > a img{
+    width: 100%;
+}
+
+.section .slidelist label{
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    cursor: pointer;
+}
+
+.section .slidelist .left{
+    left: 5px;
+    background: url('../icon/arrow2.png') center center / 100% no-repeat;
+    background-size: 15px 30px;
+    padding: 20px;
+}
+
+.section .slidelist .right{
+    right: 5px;
+    background: url('../icon/arrow.png') center center / 100% no-repeat;
+    background-size: 15px 30px;
+    padding: 20px;
+}
+
+.section [id ="slide01"]:checked ~ .slidewrap .slidelist > li {transform:translateX(0%);}
+.section [id ="slide02"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-100%);}
+.section [id ="slide03"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-200%);}
+.section [id ="slide04"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-300%);}
+.section [id ="slide05"]:checked ~ .slidewrap .slidelist > li {transform:translateX(-400%);}
+
+.size{
+    width: 400px;
+    height: 230px;
+    overflow: hidden;
+}
+
+.tlle{
+    overflow: hidden;
+    font-size: 18px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    padding-top: 10px;
+}
+
+.sam1{
+    display: block;
+    font-size: 14px;
+    background: #ff8297;
+    color: #fff;
+    padding: 5px 10px;
+    left: 0;
+    bottom: 0;
+}

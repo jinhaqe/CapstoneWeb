@@ -1,0 +1,128 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+.img01{
+    width: 20px;
+    height: 20px;
+}
+input {
+    border: 1px solid #c5c9ce;
+    font-family: 'Noto Sans Kr';
+    margin: 2px 0;
+    width: 100%;
+    padding: 4px 10px;
+    background: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    transition: 0s;
+}
+.agree_main {
+    padding: 30px 0 60px;
+}
+.member_main {
+    padding: 20px 0 60px;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+.form_title {
+    position: relative;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 12px 0px;
+    border-bottom: 1px solid #aaa;
+    margin: 0;
+}
+.con_box dl {
+    border-bottom: 1px solid #eee;
+    margin: 0;
+}
+.con_box dl dt {
+    position: relative;
+    display: inline-block;
+    width: 125px;
+    padding: 16px 10px;
+    min-height: 24px;
+    line-height: 22px;
+    vertical-align: top;
+    font-size: 15px;
+    color: #1b1b1b;
+    font-weight: 400;
+}
+
+.con_box dl dd {
+    display: inline-block;
+    padding: 10px 15px 12px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #282f36;
+    background: #fff;
+}
+.real_text {
+    width: 150px !important;
+}
+.real_email {
+    width: 180px !important;
+}
+.real_addr {
+    width: 180px !important;
+}
+.real_radio {
+	width:30px;
+}
+.text_info {
+    color: #ff5a75;
+    font-size: 13px;
+    display: inline-block;
+    padding-top: 3px;
+    padding-left: 7px;
+}
+.nec {
+    color: #ce6049;
+}
+
+.note {
+    margin: 8px 0;
+    font-size: 15px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.btn_warp {
+    margin-top: 70px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn_white {
+    border: 1px solid #aaa;
+    margin: 0 5px;
+    background-color: #fff;
+    color: #333;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+}
+.btn_white a {
+    padding: 15px 30px;
+    font-size: 15px;
+}
+.btn_red {
+    margin: 0 5px;
+    background: #ff7b91;
+    border-color: #ff7b91;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    width: 100px;
+}
+.btn_red input {
+    background: #ff7b91;
+    border-color: #ff7b91;
+    font-size: 15px;
+    color: #fff;
+}
